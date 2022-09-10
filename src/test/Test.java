@@ -13,7 +13,7 @@ public class Test {
 
 		Otobus otobus1 = new Otobus(3 ,"isim3 soyisim3", 80);
 		
-		Minibus minibus1 = new Minibus(5 ,"isim4 soyisim4", 70);
+		Minibus minibus1 = new Minibus(4 ,"isim4 soyisim4", 70);
 		
 
 		
@@ -94,6 +94,7 @@ public class Test {
 			System.out.println(arac);
 		}
 		
+		System.out.println("\nBugun elde edilen gise bakiyesi: " + yonetim.gunlukBakiyeHesapla());
 		
 	}
 

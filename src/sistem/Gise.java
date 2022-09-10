@@ -6,8 +6,8 @@ import araclar.Arac;
 
 public class Gise {
 
-	protected ArrayList<Arac> araclar;
-	protected static double bakiye;
+	private static ArrayList<Arac> araclar;
+	private static double bakiye;
 
 	public Gise() {
 		araclar=new ArrayList<Arac>();
@@ -30,7 +30,7 @@ public class Gise {
 		return bakiye;
 	}
 	
-	public ArrayList<Arac> getAraclar(){
+	public static ArrayList<Arac> getAraclar(){
 		return araclar;
 	}
 }

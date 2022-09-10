@@ -38,14 +38,6 @@ public abstract class Arac {
 		return HGSNumarasi;
 	}
 
-	public String getSahibi() {
-		return sahibi;
-	}
-
-	public int getSinif() {
-		return sinif;
-	}
-
 	public ArrayList<Date> getGectigiTarihler() {
 		return gectigiTarihler;
 	}
